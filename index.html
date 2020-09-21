@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://ajinkya-chitale.github.io/Images.github.io/music_icon.gif" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <title>Music Player App - AJ</title>
+</head>
+<body>
+    <main class="main_div">
+        <div class="music_container">
+            <h1 class="title">Machayenge</h1>
+            <marquee behavior="" direction="">
+                <h2 class="singer">Emiway Bantai</h2>
+            </marquee>
+            <div class="img_container">
+                <img src="images/music_img3.jpg" alt="">
+            </div>
+            <div class="duration_container">
+                <div class="current_duration">0:00</div>
+                <div class="total_duration">2:55</div>
+            </div>
+            <div class="progress">
+                <div class="progress_duration"></div>
+            </div>
+            <audio src="https://ajinkya-chitale.github.io/Images.github.io/Emiway_Bantai.mp3"></audio>
+            <div class="music_controls">
+                <i class="fas fa-backward prev"></i>
+                <i class="fas fa-play playpause"></i>
+                <i class="fas fa-forward next"></i>
+            </div>
+        </div>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
