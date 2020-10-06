@@ -130,3 +130,23 @@ html {
         transform: scale(1.2);
     }
 }
+
+
+@media only screen and (min-device-width: 360px) and (max-device-width: 820px) and (orientation: landscape) {
+    .main_div .music_container {
+        height: 90%;
+        width: 80vw;
+        padding: 1rem 3rem;
+
+        h1.title {
+            font-size: 2rem;
+        }
+        h2 {
+            font-size: 1.5rem;
+        }
+
+        .img_container img {
+            max-height: 13rem;
+        }
+   }
+}
